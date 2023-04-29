@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 3001",
+    "dev": "next dev --port 3005",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -12,7 +12,7 @@
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "ui": "*"
+    "react-compound-countdown": "*"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",
