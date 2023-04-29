@@ -5,7 +5,8 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "test": "jest"
+    "test": "jest",
+    "publish-react-compound-countdown": "cd packages/core && yarn build && npm publish"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
